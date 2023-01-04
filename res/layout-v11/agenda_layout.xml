@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/a_parent" android:padding="10.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+		<requestFocus android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="vertical" android:id="@id/a_ll_pinned" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:textStyle="bold|italic" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_pinned" style="@android:style/TextAppearance.DialogWindowTitle" />
+			<ListView android:id="@id/a_lv_pinned" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerHeight="5.0dip" android:animateLayoutChanges="true" />
+		</LinearLayout>
+		<ImageView android:id="@id/a_s_pc" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:src="@color/colorPrimary" />
+		<include android:id="@id/a_ll_current" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/agenda_item" />
+		<ImageView android:id="@id/a_s_cr" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimary" />
+		<LinearLayout android:orientation="vertical" android:id="@id/a_ll_recents" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:textStyle="bold|italic" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_recents" style="@android:style/TextAppearance.DialogWindowTitle" />
+			<ListView android:id="@id/a_lv_recents" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerHeight="5.0dip" android:animateLayoutChanges="true" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

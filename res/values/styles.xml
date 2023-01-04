@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AppTheme" parent="@android:style/Theme.Dialog"><item name="android:buttonStyle">@style/MyButton</item><item name="android:imageButtonStyle">@style/MyImageButton</item><item name="android:seekBarStyle">@style/MySeekBar</item></style>
+<style name="DialogTheme" parent="@android:style/Theme.Dialog" />
+<style name="MyButton" parent="@android:style/Widget.Button"><item name="android:maxWidth">50.0dip</item><item name="android:maxHeight">50.0dip</item><item name="android:minWidth">0.0dip</item><item name="android:minHeight">0.0dip</item></style>
+<style name="MyImageButton" parent="@android:style/Widget.ImageButton"><item name="android:maxWidth">50.0dip</item><item name="android:maxHeight">50.0dip</item><item name="android:minWidth">0.0dip</item><item name="android:minHeight">0.0dip</item></style>
+<style name="MySeekBar" parent="@android:style/Widget.SeekBar" />
+</resources>

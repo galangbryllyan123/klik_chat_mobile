@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="insideInset" android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<CheckBox android:id="@id/chk_enableRecents" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chk_enableRecents" android:onClick="onButtonClick" />
+		<CheckBox android:id="@id/chk_mergeInputs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chk_mergeInputs" android:onClick="onButtonClick" />
+		<CheckBox android:id="@id/chk_hideInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chk_hideInfo" android:onClick="onButtonClick" />
+		<CheckBox android:id="@id/chk_keepprefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chk_keepprefix" android:onClick="onButtonClick" />
+		<CheckBox android:id="@id/chk_autoopen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chk_autoopen" android:onClick="onButtonClick" />
+		<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<CheckBox android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="@string/txt_mode" />
+			<com.trianguloy.openInWhatsapp.utils.MySpinner android:id="@id/spn_openable" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dialog" />
+		</LinearLayout>
+		<ImageView android:id="@id/imageView2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimary" />
+		<LinearLayout android:orientation="vertical" android:id="@id/ll_locales" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:id="@id/txt_about_language" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_changelanguage" />
+			<Button android:id="@id/btn_changeLocale" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_changeLocale_default" android:onClick="onButtonClick" />
+		</LinearLayout>
+		<TextView android:id="@id/txt_about_language2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_availocales" />
+		<ImageView android:id="@id/imageView3" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimary" />
+		<LinearLayout android:orientation="vertical" android:id="@id/adn_ll_settings" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TextView android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/addon_txt_loading" />
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin">
+				<TextView android:id="@id/adn_txt_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<SeekBar android:id="@id/adn_skbr_limit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="10" android:progress="0" android:layout_weight="1.0" />
+			</LinearLayout>
+			<ImageView android:id="@id/imageView6" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="10.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimaryDark" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ImageView android:id="@id/btn_addons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_addon" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_addons" style="?android:imageButtonStyle" />
+			<TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_addonDescr" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

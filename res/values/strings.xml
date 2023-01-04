@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="addon_message_loadingCalls">Loading unknown calls list…</string>
+<string name="addon_toast_noCalls">"No unknown numbers found or couldn't be read"</string>
+<string name="addon_txt_loading">Limit the recent unknown calls to reduce loading time (requires addon V1.2+). Set to 0 to show all:</string>
+<string name="app_id">547269616e67756c6f5927732061707020436c69636b20746f2063686174</string>
+<string name="app_name">Click to chat</string>
+<string name="btn_addonLink">Addon</string>
+<string name="btn_changeLocale_default">Unavailable/Unknown</string>
+<string name="btn_link_apppage">App page</string>
+<string name="btn_link_faq">"Frecuently asked questions
+(FAQ) [English only]"</string>
+<string name="btn_link_helptranslations">Translate</string>
+<string name="btn_link_playstore_open">Play Store (open)</string>
+<string name="btn_link_playstore_share">Play Store (share)</string>
+<string name="btn_link_support">Support</string>
+<string name="btn_noWarn">"Don't warn again"</string>
+<string name="btn_openInWhatsapp">Open</string>
+<string name="btn_shareLink">Share</string>
+<string name="btn_shortcut">Shortcut</string>
+<string name="chk_autoopen">Open automatically when a number is autofilled (share, call, recent or clipboard).</string>
+<string name="chk_enableRecents">Save recent numbers/messages. (disabling it will clear saved ones)</string>
+<string name="chk_hideInfo">Hide the help text from the main screen</string>
+<string name="chk_keepprefix">Restore prefix [%1$s] when the app closes.</string>
+<string name="chk_mergeInputs">Merge prefix and number inputs</string>
+<string name="cl_more">show more</string>
+<string name="cl_title">Changelog:</string>
+<string name="cntDesc_addons">Open Addon page</string>
+<string name="cntDesc_agenda">Agenda</string>
+<string name="cntDesc_appInfo">App information</string>
+<string name="cntDesc_appLogo">Application logo</string>
+<string name="cntDesc_calls">Unknown calls</string>
+<string name="cntDesc_delete">Delete</string>
+<string name="cntDesc_filter">Filter</string>
+<string name="cntDesc_pasteClipboard">Paste from clipboard</string>
+<string name="cntDesc_prefixSelector">Prefix selector</string>
+<string name="cntDesc_recentMessages">Recent messages</string>
+<string name="cntDesc_settings">Settings</string>
+<string name="cntDesc_toggleAdv">Toggle advanced</string>
+<string name="cntDesc_togglepin">Pin/unpin</string>
+<string name="const_collapse">/\\</string>
+<string name="const_expand">\\/</string>
+<string name="const_plus_sign">+</string>
+<string name="error_badData">Error while opening. Incorrect data</string>
+<string name="error_instantApp">Instant apps can only open the default app. If you have multiple versions (like WhatsApp and WhatsApp Business) try installing the [[oiw|full app]] (note: not all versions are supported).</string>
+<string name="error_nowhatsapp">"Couldn't open WhatsApp. [[wps|Is it installed?]]"</string>
+<string name="header_code">Prefix %1$s</string>
+<string name="header_country">Country %1$s</string>
+<string name="hint_editNumber">Number</string>
+<string name="hint_editPrefix">Pref</string>
+<string name="hint_itemName">name</string>
+<string name="hint_message">Message that will be autocompleted, NOT sent.</string>
+<string name="hint_prefAndNumber">Pref &amp; Number</string>
+<string name="lbl_shortcut">Open a chat with %s</string>
+<string name="message_clearRecents">Do you want to remove all recents?</string>
+<string name="message_instantApp">"The '%s' feature isn't available in an instant app. If you want to use it please install the app from the Play Store."</string>
+<string name="msg_warnShare">"The link you are going to share contains the entered phone number in plain text. Everyone with access to the link will have access to the number. If it is a personal number don't share the link publicly."</string>
+<string name="prefix_url">https://en.wikipedia.org/wiki/List_of_country_calling_codes#Alphabetical_listing_by_country_or_region</string>
+<string name="title_agenda">Agenda:</string>
+<string name="title_chooseApp">Choose app:</string>
+<string name="title_chooseCountry">Prefix by country:</string>
+<string name="title_clearRecents">Clear recents:</string>
+<string name="title_instantApp">Instant app</string>
+<string name="title_pinned">Pinned:</string>
+<string name="title_recents">Recents:</string>
+<string name="title_sendTo">Send link to:</string>
+<string name="toast_autoParser">"Automatic parser.
+Check the prefix!"</string>
+<string name="toast_copied">Copied to clipboard</string>
+<string name="toast_error_openLink">Could not open link</string>
+<string name="translated" />
+<string name="txt_about">App created by [[tri|TrianguloY]]. This app is not affiliated with WhatsApp Inc.</string>
+<string name="txt_about_helptranslations">Do you want to help with a translation? You can find more information here:</string>
+<string name="txt_acknowledgements" formatted="false">"Acknowledgements:
+Thanks to %n for providing the %l locale translation!"</string>
+<string name="txt_addonDescr">"With this addon you can allow this app to show a list of unknown recent calls to click. Don't worry: it's free, smaller than a picture, and no ads."</string>
+<string name="txt_availocales">Only locales available [[lcl|in your device]] are installed, to reduce app size.</string>
+<string name="txt_changelanguage">You can change the app language by clicking the button below (the app will be restarted).</string>
+<string name="txt_description">"This app uses WhatsApp public api to open a chat with any number you enter. No contact is created on the device.
+More info [[wfq|here]].
+
+Insert the number and the [[prf|prefix]] with no extra characters, only numbers 0–9. More info [[hlp|here]]. You can click on the '+' item to choose from a list.
+Example: for +44 (UK) 123 456 7890 write 44 1234567890"</string>
+<string name="txt_extra_description">"
+Use this to create a link that will open WhatsApp when clicked. You can specify a number and/or a message that will be placed on the input box (will NOT, I repeat, will NOT send the message)."</string>
+<string name="txt_jidWarning">"This mode uses an undocumented WhatsApp intent and may stop working or do so incorrectly. Unless already fixed, it seems to avoid checking for valid numbers so a chat will open even if the number doesn't exist. Note that using this mode is discouraged because of unknown consequences.
+
+Continue at your own risk?"</string>
+<string name="txt_mode">Opening mode:</string>
+<string name="txt_support">Being a free without ads nor purchases app, the progress and updates are based on the reception and support from you.</string>
+<string name="util_close">Close</string>
+<string name="util_none">None</string>
+</resources>

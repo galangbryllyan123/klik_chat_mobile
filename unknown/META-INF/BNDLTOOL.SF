@@ -1,0 +1,119 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 7IV65koqheaVnCquiMiYsMVjd2E=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: hYO+RmjDYqh1fFazTFrnW6BghJ0=
+
+Name: classes.dex
+SHA1-Digest: d1yigQaac5RdRPLVxas0j9F0RxY=
+
+Name: res/drawable-anydpi-v21/ic_launcher_foreground.xml
+SHA1-Digest: Y7+/V8EzH5bpUbbGgcSQaJiERs0=
+
+Name: res/drawable-hdpi-v4/clipboard.png
+SHA1-Digest: at171qNuRgIw0zqEq3kZLpqygNw=
+
+Name: res/drawable-hdpi-v4/pin.png
+SHA1-Digest: nTYyfu+2a5u8mZ9aWDGfo4oXVpM=
+
+Name: res/drawable-hdpi-v4/unpin.png
+SHA1-Digest: FgLscuO294tdefoML6GrNVPsP5g=
+
+Name: res/drawable-ldpi-v4/ic_launcher_foreground.png
+SHA1-Digest: UnzOO9G+aVUENvznAPyr5u08uM8=
+
+Name: res/layout-v11/agenda_layout.xml
+SHA1-Digest: gRlGnN/HY9cSGNgX9Sg3kBBLGbI=
+
+Name: res/layout-v11/changelog_layout.xml
+SHA1-Digest: ga76Gw3pYAkwFlp746X6TktQPUs=
+
+Name: res/layout-v11/country_code_popup.xml
+SHA1-Digest: 7bWz5Giuj2nRRgfyuvX4sM6ABVM=
+
+Name: res/layout-v11/main_layout.xml
+SHA1-Digest: L8WM3Nw3i8UL3vbJw9WZj8Z+XtA=
+
+Name: res/layout-v11/settings_layout.xml
+SHA1-Digest: H1Umim1KBdM0Yljp2KrzxG0IpwI=
+
+Name: res/layout-v17/agenda_item.xml
+SHA1-Digest: c8NZFZHcPZ9p+1u9tO4SP7Zyxoo=
+
+Name: res/layout-v17/country_code_item.xml
+SHA1-Digest: QVkVBdxD+VTXug/Hd5BZ8A4JrTE=
+
+Name: res/layout-v17/main_layout.xml
+SHA1-Digest: QtQatuhs6SxbtzQnqXR6c/XfoRI=
+
+Name: res/layout-v17/multiline_spinner_item.xml
+SHA1-Digest: kM+qysmzFAJ1O8owTy8nRo7PNgU=
+
+Name: res/layout/about_layout.xml
+SHA1-Digest: 9w8QRTjJA27JIf8rA1EO2QBXpj8=
+
+Name: res/layout/agenda_item.xml
+SHA1-Digest: FWxq4D1t5pI+s3kLwxGjW2mLSpc=
+
+Name: res/layout/agenda_layout.xml
+SHA1-Digest: 8jiKENB4X+iB9KfkMopH4JCEoGQ=
+
+Name: res/layout/changelog_layout.xml
+SHA1-Digest: 2B1IHiRzG/jJ533YkgHHhlTk8w4=
+
+Name: res/layout/country_code_item.xml
+SHA1-Digest: 0J9ZEJhHUZD4+a/Vv8yVhGIGOXg=
+
+Name: res/layout/country_code_popup.xml
+SHA1-Digest: 6nrXgc05KQGbN1rLSrbMBJRDNsI=
+
+Name: res/layout/main_layout.xml
+SHA1-Digest: BvQVJ1XF1L0dyYf8sQN0rHQPX1Y=
+
+Name: res/layout/multiline_spinner_dropdown_item.xml
+SHA1-Digest: 4ioIcgNWYHOJ089jez1XZPOhyS0=
+
+Name: res/layout/multiline_spinner_item.xml
+SHA1-Digest: OfbebMQyZCPxd73LlmTrxwo7Hy4=
+
+Name: res/layout/settings_layout.xml
+SHA1-Digest: X+3a58y4eUXmIkEtWPPc5VyrHQ0=
+
+Name: res/mipmap-anydpi-v26/ic_launcher.xml
+SHA1-Digest: xbQzFtknYYR4JlvXTJmLSMy3hbM=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: FFhK6aD//3fz3m9U1hYjoaWK3d0=
+
+Name: res/mipmap-hdpi-v4/icon_addon.png
+SHA1-Digest: RLVhJYhejpT8QKTgfkIFAxJ9TIc=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: VBuNU0q8WBpjJzrZKR42Qm/Pygo=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: 19Ygt9naMffY+w8cBbJ4X+7tL3A=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: PsTqEB6jt6XeMSiAWJjn1ztQwzY=
+
+Name: res/raw/changelog.txt
+SHA1-Digest: BvHofdZISqILau9lnDDLGsmEDeY=
+
+Name: res/raw/countries_ext.txt
+SHA1-Digest: ZkCNKnlf4y4Uryz5xmdTiqf/E4s=
+
+Name: res/raw/countries_name.txt
+SHA1-Digest: oxjw7gydl4OGHQc9YYqRI/j/284=
+
+Name: res/xml/splits0.xml
+SHA1-Digest: p4c9ZA+iDyDJXhZo7BcpdzTBn/I=
+
+Name: resources.arsc
+SHA1-Digest: ARgpcefENCDliG0Z/DjMpKQo8Q8=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

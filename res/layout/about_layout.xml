@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textAppearance="@android:style/TextAppearance.DialogWindowTitle" android:textStyle="bold" android:gravity="start|center" android:id="@id/txt_appName" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_weight="1.0" />
+		<ImageView android:id="@id/img_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@mipmap/ic_launcher" android:contentDescription="@string/cntDesc_appLogo" />
+	</LinearLayout>
+	<ScrollView android:scrollbarStyle="insideInset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+		<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:id="@id/txt_about_about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_about" />
+			<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:id="@id/btn_about_playstore_open" android:tag="https://play.google.com/store/apps/details?id=com.trianguloy.openInWhatsapp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/btn_link_playstore_open" android:layout_weight="1.0" android:onClick="onButtonClick" />
+				<Button android:id="@id/btn_about_playstore_share" android:tag="https://play.google.com/store/apps/details?id=com.trianguloy.openInWhatsapp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/btn_link_playstore_share" android:layout_weight="1.0" android:onClick="onButtonClick" />
+			</LinearLayout>
+			<Button android:id="@id/btn_about_apppage" android:tag="https://triangularapps.blogspot.com/p/open-in-whatsapp.html" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_link_apppage" android:onClick="onButtonClick" />
+			<Button android:id="@id/btn_about_faq" android:tag="http://triangularapps.blogspot.com/p/open-in-whatsapp-faq.html" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_link_faq" android:onClick="onButtonClick" />
+			<ImageView android:id="@id/separator_support" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimary" />
+			<TextView android:id="@id/txt_support" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_support" />
+			<Button android:id="@id/btn_about_support" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_link_support" android:onClick="onButtonClick" />
+			<ImageView android:id="@id/imageView4" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimary" />
+			<TextView android:id="@id/txt_about_acknowledgements" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_acknowledgements" />
+			<ImageView android:id="@id/imageView5" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:src="@color/colorPrimaryDark" />
+			<TextView android:id="@id/txt_about_helpTranslations" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_about_helptranslations" />
+			<Button android:id="@id/btn_about_helptranslation" android:tag="https://github.com/TrianguloY/OpenInWhatsapp_Translation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_link_helptranslations" android:onClick="onButtonClick" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

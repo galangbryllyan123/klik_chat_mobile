@@ -1,0 +1,267 @@
+Canada;United States
+Bahamas
+Barbados
+Anguilla
+Antigua and Barbuda;Barbuda
+British Virgin Islands
+US Virgin Islands
+Cayman Islands
+Bermuda
+Grenada
+Turks and Caicos Islands
+Montserrat
+Northern Mariana Islands
+Guam
+American Samoa
+Sint Maarten (Netherlands)
+Saint Lucia
+Dominica
+Saint Vincent and the Grenadines
+Puerto Rico
+Midway Island, USA;Wake Island, USA
+Dominican Republic
+Trinidad and Tobago
+Nevis;Saint Kitts and Nevis
+Jamaica
+Egypt
+South Sudan
+Morocco
+Algeria
+Tunisia
+Libya
+Gambia
+Senegal
+Mauritania
+Mali
+Guinea
+Ivory Coast
+Burkina Faso
+Niger
+Togo
+Benin
+Mauritius
+Liberia
+Sierra Leone
+Ghana
+Nigeria
+Chad
+Central African Republic
+Cameroon
+Cape Verde
+São Tomé and Príncipe
+Equatorial Guinea
+Gabon
+Congo
+Democratic Republic of the Congo (Zaire)
+Angola
+Guinea-Bissau
+British Indian Ocean Territory;Diego Garcia
+Ascension
+Seychelles
+Sudan
+Rwanda
+Ethiopia
+Somalia
+Djibouti
+Kenya
+Tanzania
+Zanzibar
+Uganda
+Burundi
+Mozambique
+Zambia
+Madagascar
+Réunion
+Mayotte
+Zimbabwe
+Namibia
+Malawi
+Lesotho
+Botswana
+eSwatini (Swaziland)
+Comoros
+South Africa
+Saint Helena
+Tristan da Cunha
+Eritrea
+Aruba
+Faroe Islands
+Greenland
+Greece
+Netherlands
+Belgium
+France
+Spain
+Gibraltar
+Portugal
+Luxembourg
+Ireland
+Iceland
+Albania
+Malta
+Cyprus
+Finland
+Åland Islands
+Bulgaria
+Hungary
+Lithuania
+Latvia
+Estonia
+Moldova
+Transnistria
+Armenia
+Nagorno-Karabakh
+Belarus
+Andorra
+Monaco
+San Marino
+Vatican City State (Holy See)
+Ukraine
+Serbia
+Montenegro
+Kosovo
+Croatia
+Slovenia
+Bosnia and Herzegovina
+North Macedonia
+Italy
+Romania
+Switzerland
+Czech Republic
+Slovakia
+Liechtenstein
+Austria
+United Kingdom
+Guernsey
+Jersey
+Isle of Man
+Northern Ireland
+Denmark
+Sweden
+Norway
+Jan Mayen;Svalbard
+Poland
+Germany
+Falkland Islands;South Georgia and the South Sandwich Islands
+Belize
+Guatemala
+El Salvador
+Honduras
+Nicaragua
+Costa Rica
+Panama
+Saint Pierre and Miquelon
+Haiti
+Peru
+Mexico
+Cuba
+Argentina
+Brazil
+Chile;Easter Island
+Colombia
+Venezuela
+Guadeloupe;Saint Barthélemy;Saint Martin (France)
+Bolivia
+Guyana
+Ecuador
+French Guiana
+Paraguay
+French Antilles;Martinique
+Suriname
+Uruguay
+Sint Eustatius
+Caribbean Netherlands
+Saba
+Bonaire
+Curaçao
+Malaysia
+Australia
+Cocos (Keeling) Islands
+Christmas Island
+Indonesia
+Philippines
+Chatham Island;New Zealand;Pitcairn Islands
+Singapore
+Thailand
+East Timor
+Australian External Territories
+Australian Antarctic Territory
+Norfolk Island
+Brunei Darussalam
+Nauru
+Papua New Guinea
+Tonga
+Solomon Islands
+Vanuatu
+Fiji
+Palau
+Wallis and Futuna
+Cook Islands
+Niue
+Samoa
+Kiribati
+New Caledonia
+Tuvalu
+French Polynesia
+Tokelau
+Federated States of Micronesia
+Marshall Islands
+Russia
+Kazakhstan
+International Freephone Service (UIFN)
+International Shared Cost Service (ISCS)
+Japan
+South Korea
+Vietnam
+North Korea
+Hong Kong
+Macau
+Cambodia
+Laos
+China
+Inmarsat SNAC
+Universal Personal Telecommunications (UPT)
+Bangladesh
+Global Mobile Satellite System (GMSS)
+ICO Global (Mobile Satellite Service)
+Ellipso (Mobile Satellite service)
+Iridium (Mobile Satellite service)
+Globalstar (Mobile Satellite Service)
+EMSAT (Mobile Satellite service)
+Thuraya (Mobile Satellite service)
+International Networks
+Taiwan
+Telecommunications for Disaster Relief by OCHA
+Turkey
+Northern Cyprus
+India
+Pakistan
+Afghanistan
+Sri Lanka
+Myanmar
+Maldives
+Lebanon
+Jordan
+Syria
+Iraq
+Kuwait
+Saudi Arabia
+Yemen
+Oman
+State of Palestine
+United Arab Emirates
+Israel
+Bahrain
+Qatar
+Bhutan
+Mongolia
+Nepal
+International Premium Rate Service
+Iran
+Tajikistan
+Turkmenistan
+Azerbaijan
+Georgia
+South Ossetia
+Kyrgyzstan
+Uzbekistan

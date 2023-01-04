@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/parent" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false">
+	<LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textAppearance="@android:style/TextAppearance.DialogWindowTitle" android:textStyle="bold" android:gravity="start|center" android:id="@id/txt_about" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_weight="1.0" />
+		<ImageButton android:id="@id/btn_settings" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_preferences" android:scaleType="center" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_settings" />
+		<ImageButton android:id="@id/btn_about" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_info_details" android:scaleType="center" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_appInfo" />
+	</LinearLayout>
+	<View android:id="@id/divider" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="8.0dip" />
+	<ScrollView android:id="@id/activity_main" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:layout_gravity="start" android:id="@id/txt_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_description" />
+			<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linLay_inputNumber" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:gravity="center" android:id="@id/btn_countries" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/const_plus_sign" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_prefixSelector" />
+				<EditText android:id="@id/edtTxt_prefix" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/hint_editPrefix" android:ems="2" android:digits="\ 0123456789" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionNext" />
+				<EditText android:id="@id/edtTxt_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/hint_editNumber" android:ems="10" android:digits="\ 0123456789" android:layout_weight="3.0" android:inputType="phone" android:imeOptions="actionGo" android:imeActionLabel="@string/btn_openInWhatsapp" />
+				<ImageButton android:id="@id/btn_clipboard" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@drawable/clipboard" android:scaleType="center" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_pasteClipboard" />
+				<ImageButton android:id="@id/btn_agenda" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_agenda" android:scaleType="center" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_agenda" />
+				<ImageButton android:id="@id/btn_calls" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_call" android:scaleType="center" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_calls" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/layout_expanded" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<TextView android:id="@id/txt_extraInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_extra_description" />
+				<LinearLayout android:orientation="horizontal" android:id="@id/linLay_inputText" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<EditText android:id="@id/edtTxt_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_message" android:maxLines="6" android:lines="3" android:minLines="3" android:ems="10" android:layout_weight="1.0" android:inputType="textMultiLine" />
+					<ImageButton android:id="@id/btn_recentsMessages" android:layout_width="@dimen/button_width" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_recent_history" android:scaleType="center" android:layout_weight="0.0" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_recentMessages" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+			<Button android:id="@id/btn_functionOpen" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_openInWhatsapp" android:onClick="onButtonClick" />
+			<LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:id="@id/btn_functionShare" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_shareLink" android:layout_weight="1.0" android:onClick="onButtonClick" />
+				<Button android:id="@id/btn_functionShortcut" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_shortcut" android:layout_weight="1.0" android:onClick="onButtonClick" />
+			</LinearLayout>
+		</LinearLayout>
+		<Button android:id="@id/btn_toggleExpand" android:layout_width="@dimen/button_width" android:layout_height="fill_parent" android:text="@string/const_expand" android:onClick="onButtonClick" android:contentDescription="@string/cntDesc_toggleAdv" />
+	</LinearLayout>
+	<TextView android:id="@id/txt_error" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>
